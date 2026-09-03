@@ -16,9 +16,9 @@ The framework mainly includes:
 ## Data Sources and Preprocessing
 ### Datasets
 We use transcriptomic profiles and histopathological whole‑slide images (WSIs) from [The Cancer Genome Atlas (TCGA)](https://portal.gdc.cancer.gov/), covering three cancer cohorts:
-- BLCA (bladder urothelial carcinoma): $n=422$
-- LUAD (lung adenocarcinoma): $n=574$
-- UCEC (uterine corpus endometrioid carcinoma): $n=568$
+- BLCA (bladder urothelial carcinoma): n=422
+- LUAD (lung adenocarcinoma): n=574
+- UCEC (uterine corpus endometrioid carcinoma): n=568
 
 ### Transcriptomic Data Preprocessing
 1. Raw RNA‑seq read‑count matrices are downloaded from TCGA‑GDC portal.
@@ -35,8 +35,8 @@ We use transcriptomic profiles and histopathological whole‑slide images (WSIs)
 - **Software Environment**: Python 3.8.13, PyTorch 2.4.1, CUDA 11.8
 - **Hardware**: NVIDIA A100‑SXM4‑40GB GPU workstation
 - **Optimizer**: Adam
-- **Learning rate**: $1\times 10^{-4}$
-- **Weight decay**: $5\times 10^{-5}$
+- **Learning rate**:10^{-4}
+- **Weight decay**: 10^{-5}
 - **Training epochs**: 50
 - **Batch size**: 6
 
