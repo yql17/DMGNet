@@ -13,11 +13,14 @@ The framework mainly includes:
 * A risk-level fusion module for multimodal survival prediction.
 * A  modality decoupling strategy (MDS) to alleviate optimization interference between modalities.
 
-## Code Availability
+## Code and Data‑Processing Availability
+This repository provides model framework source code, patient filtering criteria, multi‑modal data preprocessing pipelines, feature‑extraction scripts, and experimental configuration files required to reproduce the main findings. All raw pathological and genomic data can be acquired from the public TCGA database.
+No confidential or restricted datasets were used in the core experiments of this work.
 
-The manuscript is currently under review. To ensure compliance with the review and publication process, the full source code, data preprocessing scripts, training scripts, and detailed instructions will be released after the paper is accepted.
-
-Please stay tuned for future updates.
+## Reproducibility
+1. Raw multi‑modal data: TCGA‑LUAD, TCGA‑BLCA, TCGA‑UCEC
+2. Patient inclusion and exclusion rules and preprocessing workflows are provided within this repository.
+3. Users can reproduce the primary results by downloading public TCGA resources and running the released preprocessing and model‑related code.
 
 ## Citation
 
