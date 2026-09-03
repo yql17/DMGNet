@@ -14,7 +14,7 @@ The framework mainly includes:
 * A  modality decoupling strategy (MDS) to alleviate optimization interference between modalities.
 
 ## Code and Data‑Processing Availability
-This repository provides model framework source code, patient filtering criteria, multi‑modal data preprocessing pipelines, feature‑extraction scripts, and experimental configuration files required to reproduce the main findings. All raw pathological and genomic data can be acquired from the public TCGA database.
+This repository provides model framework source code, patient filtering criteria, multi‑modal data preprocessing pipelines, feature‑extraction scripts, and experimental configuration files required to reproduce the main findings. All raw pathological and genomic data can be acquired from the public [TCGA database](https://portal.gdc.cancer.gov/).
 No confidential or restricted datasets were used in the core experiments of this work.
 
 ## Reproducibility
