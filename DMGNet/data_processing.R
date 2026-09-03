@@ -1,17 +1,11 @@
-setwd("E:/TCGA-LUAD")
-library(data.table)
 
 library(dplyr)
 # 1.读取数据-------------------
 ## 1.1读取count数值
 library(tidyverse)
 counts1<-fread("./TCGA-LUAD.star_counts.tsv.gz")
-##1.2还原count数值
-counts1<-column_to_rownames(counts1,"Ensembl_ID")
-counts2<- 2^counts1 -1
-counts2<- round(counts2)
  ## 1.3生存数据读取                                                                                                                                                                                               
-survial_data<- read_tsv("./TCGA-LUAD.survival.tsv/TCGA-LUAD.survival.tsv")
+survial_data<- read_tsv("TCGA-LUAD.survival.tsv")
 ## 1.4 读取临床表征数据
 clinical_data <- fread("./TCGA-LUAD.survival.tsv.gz")
 
